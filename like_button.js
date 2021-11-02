@@ -17,7 +17,8 @@ class LikeButton extends React.Component {
     if (this.state.liked) {
       return b(
         'button',
-        {onClick: () => this.setState({ alsoLiked: true })}
+        {onClick: () => this.setState({ alsoLiked: true })},
+        'YOLO'
       );
     }
 

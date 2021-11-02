@@ -2,11 +2,16 @@
 
 const e = React.createElement;
 
+const b = React.createElement;
+
 
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = { 
+      liked: false,
+      alsoLiked: false
+     };
   }
 
   render() {

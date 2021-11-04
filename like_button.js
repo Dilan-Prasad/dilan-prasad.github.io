@@ -7,13 +7,14 @@ class LikeButton extends React.Component {
     super(props);
     this.state = { 
       liked: false,
-      alsoLiked: false
      };
   }
 
   render() {
     if (this.state.liked) {
-      return 'You  this.';
+      console.log("HIT");
+      return 'You liked this.';
+      
     }
 
     return e(

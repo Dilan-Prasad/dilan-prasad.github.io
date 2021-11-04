@@ -2,9 +2,6 @@
 
 const e = React.createElement;
 
-const b = React.createElement;
-
-
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
